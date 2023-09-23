@@ -1,4 +1,4 @@
-# SAN_BOOTCAMP_DS
+# SAN_BOOTCAMP_DATA_SCIENCE
 Repositório para o primeiro desafio santander bootcamp data science 2023
 ================================================================================
 
@@ -51,14 +51,18 @@ def users_f():
  
   for id in user_id():
     
-    if ((user := get_user(id)) is not None):
+  if ((user := get_user(id)) is not None):
       
-      users = get_user(id)
-      
-      print(json.dumps(users, indent= 2))
+  users = get_user(id)
+  
+  print(json.dumps(users, indent= 2))
 
 users_f()
 ================================================================================
+as alterações e comentários estarão no notebook adicionado posteriormente a este comentario.
+
+
+
 
 
 
