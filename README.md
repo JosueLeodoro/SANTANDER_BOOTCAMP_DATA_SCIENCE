@@ -1,6 +1,6 @@
 # BOOTCAMP SANTANDER DATA SCIENCE 2023
 
-Repositório para o primeiro desafio santander bootcamp data science 2023
+Repositório para os desafios do santander bootcamp data science 2023
 ================================================================================
 
 Utilizar o colab ou jupyter para realizaçao da tratativa de dados e conexao com aplicaçao java 
@@ -61,6 +61,7 @@ def users_f():
 users_f()
 ================================================================================
 as alterações e comentários estarão no notebook adicionado posteriormente a este comentario.
+arquivo BOOTCAMP
 
 
 
