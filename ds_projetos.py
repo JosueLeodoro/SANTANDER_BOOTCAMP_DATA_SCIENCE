@@ -42,3 +42,19 @@ elif valor == 0:
    print('Encerrando o programa...')
 else:
   print('Valor invalido! Digite um valor maior que zero.')
+
+    """# ATIVOS """
+ativos = []
+
+# Entrada da quantidade de ativos
+quantidadeAtivos = int(input())
+
+# Entrada dos códigos dos ativos
+for _ in range(quantidadeAtivos):
+    codigoAtivo = input()
+    ativos.append(codigoAtivo)
+
+ativos.sort()
+
+for palavra in ativos:
+  print(palavra)
