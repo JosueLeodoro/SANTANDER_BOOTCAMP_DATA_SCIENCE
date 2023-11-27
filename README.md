@@ -14,8 +14,7 @@ Load
 ================================================================================
 
 
-Codigo para extração oferecida pelo professor flavio
-foi de 
+Codigo para extração
 
 
 import requests
@@ -30,7 +29,7 @@ def get_user(id):
   
   return response.json() if response.status_code == 200 else None
 
-# compreensão de listas utilizando operador AURUS := apelido morsa
+# compreensão de listas utilizando operador WALRUS := apelido morsa
 
 
 users = [user for id in user_id() if (user := get_user(id)) is not None]
